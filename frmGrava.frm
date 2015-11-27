@@ -126,7 +126,7 @@ Begin VB.Form frmGravadoras
    Begin VB.Data datPrimaryRS 
       Caption         =   " "
       Connect         =   "Access"
-      DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+      DatabaseName    =   "Discos.mdb"
       DefaultCursorType=   0  'DefaultCursor
       DefaultType     =   2  'UseODBC
       Exclusive       =   0   'False

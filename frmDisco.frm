@@ -21,7 +21,7 @@ Begin VB.Form frmDiscos
    Begin VB.Data datPrimaryRS 
       Caption         =   " "
       Connect         =   "Access"
-      DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+      DatabaseName    =   "Discos.mdb"
       DefaultCursorType=   0  'DefaultCursor
       DefaultType     =   2  'UseODBC
       Exclusive       =   0   'False
@@ -330,7 +330,7 @@ Begin VB.Form frmDiscos
       Begin VB.Data Data1 
          Caption         =   "Data1"
          Connect         =   "Access"
-         DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+         DatabaseName    =   "Discos.mdb"
          DefaultCursorType=   0  'DefaultCursor
          DefaultType     =   2  'UseODBC
          Exclusive       =   0   'False
@@ -347,7 +347,7 @@ Begin VB.Form frmDiscos
       Begin VB.Data Data2 
          Caption         =   "Data2"
          Connect         =   "Access"
-         DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+         DatabaseName    =   "Discos.mdb"
          DefaultCursorType=   0  'DefaultCursor
          DefaultType     =   2  'UseODBC
          Exclusive       =   0   'False
@@ -436,7 +436,7 @@ Begin VB.Form frmDiscos
       Begin VB.Data Data3 
          Caption         =   "Data3"
          Connect         =   "Access"
-         DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+         DatabaseName    =   "Discos.mdb"
          DefaultCursorType=   0  'DefaultCursor
          DefaultType     =   2  'UseODBC
          Exclusive       =   0   'False
@@ -453,7 +453,7 @@ Begin VB.Form frmDiscos
       Begin VB.Data Data4 
          Caption         =   "Data4"
          Connect         =   "Access"
-         DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+         DatabaseName    =   "Discos.mdb"
          DefaultCursorType=   0  'DefaultCursor
          DefaultType     =   2  'UseODBC
          Exclusive       =   0   'False
@@ -934,7 +934,7 @@ Begin VB.Form frmDiscos
    End
    Begin VB.Data datSecondaryRS 
       Connect         =   "Access"
-      DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+      DatabaseName    =   "Discos.mdb"
       DefaultCursorType=   0  'DefaultCursor
       DefaultType     =   2  'UseODBC
       Exclusive       =   0   'False

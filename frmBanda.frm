@@ -77,7 +77,7 @@ Begin VB.Form frmBandas
    Begin VB.Data Data1 
       Caption         =   "Data1"
       Connect         =   "Access"
-      DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+      DatabaseName    =   "Discos.mdb"
       DefaultCursorType=   0  'DefaultCursor
       DefaultType     =   2  'UseODBC
       Exclusive       =   0   'False
@@ -112,7 +112,7 @@ Begin VB.Form frmBandas
    Begin VB.Data datPrimaryRS 
       Caption         =   " "
       Connect         =   "Access"
-      DatabaseName    =   "C:\Dados\Prog\VBasic\Discos.mdb"
+      DatabaseName    =   "Discos.mdb"
       DefaultCursorType=   0  'DefaultCursor
       DefaultType     =   2  'UseODBC
       Exclusive       =   0   'False
